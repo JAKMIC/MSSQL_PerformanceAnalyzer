@@ -18,7 +18,7 @@ CREATE EVENT SESSION MSSQL_PerformanceAnalyzerEvents
     )
     ADD TARGET package0.event_file
     (SET
-        filename = N'C:\MSSQL_PerformanceAnalyzer\MSSQL_PerformanceAnalyzer\MSSQL_PerformanceAnalyzerEvents.xel',
+        filename = N'C:\MSSQL_PerformanceAnalyzer\MSSQL_PerformanceAnalyzerEvents.xel',
         max_file_size = (2),
         max_rollover_files = (2)
     )
