@@ -36,3 +36,4 @@ GO
 ALTER EVENT SESSION MSSQL_PerformanceAnalyzerEvents
       ON SERVER
     STATE = START; -- STOP;
+
